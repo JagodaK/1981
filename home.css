@@ -78,7 +78,6 @@ body {
 	padding: 0;
 	width: 960px;
 	font-family: Arial, sans-serif;
-	height: 2000px;
 }
 
 .menu {
@@ -131,8 +130,10 @@ body {
 .logo {
 	width: 159px;
 	height: 38px;
-	padding-top: 18px;
+	margin-top: 18px;
 	float: left;
+	background: url(images/logo.jpg) no-repeat;
+	display: block;
 }
 
 .logo img {
@@ -197,7 +198,7 @@ background-image: linear-gradient(to bottom, #1B1D1E 0%, #242628 100%);
 	text-decoration: none;
 }
 
-#pic_center {
+#pic-center {
 	margin: auto;
 	height: 313px;
 	width: 960px;
@@ -686,10 +687,6 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 	color: #E6E3BB;
 }
 
-/*.gizmodo h6 :hover {
-	color: #474844;
-}*/
-
 #brownline {
 	height: 9px;
 	width: 960px;
@@ -712,14 +709,12 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 }
 
 #pharetra p {
-	/*width: 200px;*/
 	font-size: 12px;
 	line-height: 1.5;
 	color: #6f6f64;
 	margin-left: 20px;
 	margin-right: 10px;
 	display: block;
-	/*float: left;*/
 	clear: left;
 }
 
@@ -834,14 +829,14 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 	margin-top: 13px;
 }
 
-.common {
+.title {
 	color: #8e4423;
 	margin-left: 20px;
 	font-style: italic;
 	font-size: 16px;
 }
 
-.common span {
+.title span {
 	font-weight: lighter;
 }
 
@@ -1004,7 +999,7 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 	padding-bottom: 5px;
 }*/
 
-.size h1 {
+.size p {
 	border-bottom: 1px solid #7A7A6E;
 	padding-bottom: 10px;	
 	text-align: center;
@@ -1017,7 +1012,7 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 	margin-left: 19px;
 }
 
-#flickr h1 {
+#flickr p {
 	width: 267px;
 	text-align: left;
 	margin-left: 19px;
@@ -1068,7 +1063,6 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 .pages {
 	width: 140px;
 	float: left;
-	/*border: 1px solid red;*/
 	padding-top: 10px;
 }
 
@@ -1078,7 +1072,7 @@ background-image: linear-gradient(to bottom, #3C3F40 0%, #242729 100%);
 	padding-bottom: 10px;
 }
 
-footer {
+#footer {
 	width: 960px;
 	height: 50px;
 	margin: auto;
@@ -1088,7 +1082,7 @@ footer {
 	margin-top: 16px;
 }
 
-footer p {
+#footer p {
 	display: block;
 	width: 300px;
 	float: left;
@@ -1096,7 +1090,7 @@ footer p {
 	font-size: 12px;
 }
 
-footer ul {
+#footer ul {
 	/*width: 260px;*/
 	list-style: none;
 	float: right;
@@ -1104,23 +1098,25 @@ footer ul {
 	margin-right: 24px;
 }
 
-footer ul li {
+#footer ul li {
 	display: inline;
-	padding-right: 10px;
+	padding-right: 8px;
 }
 
-footer ul li:last-child {
+#footer ul li:last-child {
 	padding-right: 0px;
 }
 
-footer ul li a {
+#footer ul li a {
 	text-decoration: none;
 	color: #725142;
 	font-size: 12px;
 	/*font-family: Helvetica;*/
 }
 
-
+.separator {
+	padding-left: 10px;
+}
 
 
 
